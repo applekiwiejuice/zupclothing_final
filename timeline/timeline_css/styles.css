@@ -1,0 +1,38 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: grid;
+  grid-template-rows: auto;
+  font-family: calibri;
+  background: #00072b;
+  background-image: url("https://i.imgur.com/wDRpYFzh.jpg");
+  background-blend-mode: overlay;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 60vh;
+  background-color: transparent;
+  margin: 20px;
+  filter: drop-shadow(2px 4px 8px #19ccef);
+}
+
+img:hover {
+  transform: scale(1.2);
+  transition: transform 2s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+  overflow: hidden;
+}
+
+span {
+  font-size: 20px;
+  color: #fe03a6;
+}

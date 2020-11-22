@@ -1,0 +1,78 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
+  color: #bc6ff1;
+  background: #00072b;
+  background-image: url("https://i.imgur.com/hxhoEXkh.jpg");
+  background-blend-mode: overlay;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.borderRadius {
+  border-radius: 10px;
+  border: 5px solid black;
+  padding: 10px;
+}
+
+h1 h2 .zilla {
+  font-family: "Zilla Slab", serif;
+}
+
+p .raleway {
+  font-family: "Raleway", sans-serif;
+}
+
+.topLogo {
+  width: 60px;
+  background-color: transparent;
+}
+
+.center {
+  align-items: center;
+  justify-content: center;
+}
+
+.textShadow {
+  text-shadow: 1px 1px 2px #52057b;
+}
+
+.violetBackground {
+  background-color: rgba(155, 89, 182, 0.9);
+}
+
+.imgCover {
+  object-fit: cover;
+}
+
+.imgCover:hover {
+  opacity: 0.6;
+}
+
+.transform:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+}
+
+.taglines {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+}
+
+.btn_animation:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 1rem 2rem rgba(black, 0.2);
+}
+.btn_animation::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+
+.btn_black_text {
+  color: black;
+}
