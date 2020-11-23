@@ -76,3 +76,7 @@ p .raleway {
 .btn_black_text {
   color: black;
 }
+
+.transform {
+  transition: 0.5s;
+}
